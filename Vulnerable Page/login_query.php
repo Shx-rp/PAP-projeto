@@ -16,7 +16,8 @@
 				$_SESSION['message'] = array("text" => "Bem-Vindo.", "alert" => "success");
 			} else {
 				$_SESSION['message'] = array("text" => "Palavra-Passe Incorreta.", "alert" => "warning");
-				header("location: login.php");
+				echo ($username);
+				echo '<meta http-equiv="refresh" content="0;URL=\'http://localhost/login.php\'">';
 			}
 		} else {
 			$_SESSION['message'] = array("text" => "Por favor preencha todos os campos.", "alert" => "warning");
