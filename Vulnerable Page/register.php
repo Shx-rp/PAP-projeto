@@ -46,11 +46,11 @@
                                 <div class="form-group">
                                     <label>Firstname</label>
                                     <label></label>
-                                    <input type="text" class="form-control" name="firstname" pattern="[A-Za-z]{3,50}" placeholder="First Name" />
+                                    <input type="text" class="form-control" name="firstname" placeholder="First Name" />
                                 </div>
                                 <div class="form-group">
                                 <label></label>
-                                    <input type="text" class="form-control" name="lastname" pattern="[A-Za-z]{3,50}" placeholder="Last Name" />
+                                    <input type="text" class="form-control" name="lastname" placeholder="Last Name" />
                                 </div>
                                 <div class="form-group">
                                 <label></label>
