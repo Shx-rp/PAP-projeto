@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label></label>
-                                    <input type="text" class="form-control" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[?!@#$%^&*_=+\-]).{8,}$" placeholder="Password">
+                                    <input type="password" class="form-control" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[?!@#$%^&*_=+\-]).{8,}$" placeholder="Password">
                                 </div>
                                 <br />
                                 <div class="form-group">

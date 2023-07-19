@@ -32,9 +32,6 @@ if (isset($_POST['login'])) {
                 $_SESSION['user'] = $fetch['mem_id'];
                 header("location: home.php");
                 $_SESSION['message'] = array("text" => "Logged In.", "alert" => "success");
-            } else {
-                $_SESSION['message'] = array("text" => "Incorrect Password.", "alert" => "warning");
-                echo "<script>window.location = 'login.php'</script>";
             }
         } else {
 			$_SESSION['message'] = array("text" => "Incorrect Password.", "alert" => "warning");

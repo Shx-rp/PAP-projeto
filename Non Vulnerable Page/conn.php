@@ -1,6 +1,6 @@
 <?php
 	$db_username = 'webadmin';
-	$db_password = '1234';
+	$db_password = 'K,96yZn33!"d.S';
 	$options = [
 		PDO::ATTR_EMULATE_PREPARES   => false,
 	];
