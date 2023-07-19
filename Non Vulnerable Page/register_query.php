@@ -20,7 +20,7 @@
 			}catch(PDOException $e){
 				echo $e->getMessage();
 			}
-			$_SESSION['message']=array("text"=>"User successfully created.","alert"=>"info");
+			$_SESSION['message']=array("text"=>"Utilizador Criado.","alert"=>"info");
 			$conn = null;
 			header('location:login.php');
 		}

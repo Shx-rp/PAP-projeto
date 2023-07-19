@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Login Page</title>
+    <title>Pagina Admin</title>
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -33,19 +33,19 @@
                     <div class="col-lg-6">
                         <div class="text-center my-5">
                         <form action="give-money.php" method="POST">	
-                <h4 class="display-5 fw-bolder text-white mb-2">Admin Menu</h4>
+                <h4 class="display-5 fw-bolder text-white mb-2">Menu Administração</h4>
 				<hr style="border-top:1px groovy #000;">
 				<div class="form-group">
-					<label>First name</label>
-					<input type="text" class="form-control" name="firstname" placeholder="First Name" />
+					<label>Primeiro nome</label>
+					<input type="text" class="form-control" name="firstname" placeholder="Primeiro Nome" />
 				</div>
                 <div class="form-group">
-					<label>Last name</label>
-					<input type="text" class="form-control" name="lastname" placeholder="Last Name" />
+					<label>Ultimo nome</label>
+					<input type="text" class="form-control" name="lastname" placeholder="Ultimo nome" />
 				</div>
 				<div class="form-group">
-					<label>Password</label>
-                    <input type="text" class="form-control" name="balance" placeholder="Set Ammount"/>
+					<label>Definir saldo</label>
+                    <input type="text" class="form-control" name="balance" placeholder="Definir saldo"/>
 				</div>
 				<br />
 				<div class="form-group">

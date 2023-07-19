@@ -31,10 +31,10 @@ if (isset($_POST['login'])) {
             if ($row > 0) {
                 $_SESSION['user'] = $fetch['mem_id'];
                 header("location: home.php");
-                $_SESSION['message'] = array("text" => "Logged In.", "alert" => "success");
+                $_SESSION['message'] = array("text" => "Bem Vindo.", "alert" => "success");
             }
         } else {
-			$_SESSION['message'] = array("text" => "Incorrect Password.", "alert" => "warning");
+			$_SESSION['message'] = array("text" => "Senha Incorreta.", "alert" => "warning");
 			echo "<script>window.location = 'login.php'</script>";
         }
     } else {
