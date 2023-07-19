@@ -46,11 +46,11 @@
                                 <div class="form-group">
                                     <label>Firstname</label>
                                     <label></label>
-                                    <input type="text" class="form-control" name="firstname" placeholder="First Name" />
+                                    <input type="text" class="form-control" name="firstname" placeholder="Primeiro nome" />
                                 </div>
                                 <div class="form-group">
                                 <label></label>
-                                    <input type="text" class="form-control" name="lastname" placeholder="Last Name" />
+                                    <input type="text" class="form-control" name="lastname" placeholder="Ultimo nome" />
                                 </div>
                                 <div class="form-group">
                                 <label></label>
@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label></label>
-                                    <input type="text" class="form-control" name="password" placeholder="Password">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
                                 </div>
                                 <br />
                                 <div class="form-group">

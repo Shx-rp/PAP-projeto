@@ -3,11 +3,12 @@
 
 	require_once 'conn.php';
 
+	
 	if (isset($_POST['login'])) {
 		if ($_POST['username'] != "" && $_POST['password'] != "") {
 			$username = $_POST['username'];
 			$password = $_POST['password'];
-			$sql = "SELECT * FROM `clientes` WHERE `username`= '$username' AND `password`= '$password' ";
+			$sql = "SELECT * FROM `clientes` WHERE `username`= '$username' AND `password`= '$password ";
 			$result = mysqli_query($conn, $sql);
 			if (mysqli_num_rows($result) > 0) {
 				$fetch = mysqli_fetch_assoc($result);

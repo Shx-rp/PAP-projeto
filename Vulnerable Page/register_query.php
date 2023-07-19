@@ -11,18 +11,13 @@
 
 			$sql = "INSERT INTO `clientes` VALUES ('', '$firstname', '$lastname', '$username', '$password', 'user', '0')";
 			if (mysqli_query($conn, $sql)) {
-				$_SESSION['message'] = array("text" => "User successfully created.", "alert" => "info");
+				$_SESSION['message'] = array("text" => "Utilizador Criado.", "alert" => "success");
 				mysqli_close($conn);
 				header('location: login.php');
 				exit();
-			} else {
-				$_SESSION['message'] = array("text" => "Por favor preencha todos os campos.", "alert" => "info");
-				mysqli_close($conn);
-				header('location: register.php');
-				exit();
 			}
 		} else {
-			$_SESSION['message'] = array("text" => "Por favor preencha todos os campos.", "alert" => "info");
+			$_SESSION['message'] = array("text" => "Por favor preencha todos os campos.", "alert" => "warning");
 			mysqli_close($conn);
 			header('location: register.php');
 			exit();

@@ -35,7 +35,7 @@
                 header("location: admin-page.php");
                 exit();
             } else {              
-                $_SESSION['message'] = array("text" => "No user found.", "alert" => "danger");
+                $_SESSION['message'] = array("text" => "Utilizador não encontrado.", "alert" => "danger");
                 header("location: admin-page.php");
                 exit();
             }
